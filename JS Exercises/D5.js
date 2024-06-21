@@ -65,9 +65,9 @@ const cars = [
 console.log("**********ESERCIZIO 5*************");
 for (let i = 0; i < cars.length; i++) {
   if (i % 2 == 0) {
-    cars.licensePlate = true;
+    cars[i].licensePlate = true;
   } else {
-    cars.licensePlate = false;
+    cars[i].licensePlate = false;
   }
 }
 console.log(cars);
