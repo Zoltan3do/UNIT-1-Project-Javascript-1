@@ -140,11 +140,109 @@ const posizioni = [];
 for (let i = 0; i < charactersArray.length; i++) {
   for (let j = 0; j < lettere.length; j++) {
     if (charactersArray[i] === lettere[j]) {
-      posizioni.push( j + 1 );
+      posizioni.push(j + 1);
       break;
     }
   }
 }
+
 console.log(posizioni);
+
+// console.log("**********ESERCIZIO 10*************");
+
+// const charactersArray = ['g', 'n', 'u', 'z', 'd'];
+// const lettere = [
+//   "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
+// ];
+// const posizioni = [];
+
+// for (const character of charactersArray) {
+//   switch (character) {
+//     case "a":
+//       posizioni.push(1);
+//       break;
+//     case "b":
+//       posizioni.push(2);
+//       break;
+//     case "c":
+//       posizioni.push(3);
+//       break;
+//     case "d":
+//       posizioni.push(4);
+//       break;
+//     case "e":
+//       posizioni.push(5);
+//       break;
+//     case "f":
+//       posizioni.push(6);
+//       break;
+//     case "g":
+//       posizioni.push(7);
+//       break;
+//     case "h":
+//       posizioni.push(8);
+//       break;
+//     case "i":
+//       posizioni.push(9);
+//       break;
+//     case "j":
+//       posizioni.push(10);
+//       break;
+//     case "k":
+//       posizioni.push(11);
+//       break;
+//     case "l":
+//       posizioni.push(12);
+//       break;
+//     case "m":
+//       posizioni.push(13);
+//       break;
+//     case "n":
+//       posizioni.push(14);
+//       break;
+//     case "o":
+//       posizioni.push(15);
+//       break;
+//     case "p":
+//       posizioni.push(16);
+//       break;
+//     case "q":
+//       posizioni.push(17);
+//       break;
+//     case "r":
+//       posizioni.push(18);
+//       break;
+//     case "s":
+//       posizioni.push(19);
+//       break;
+//     case "t":
+//       posizioni.push(20);
+//       break;
+//     case "u":
+//       posizioni.push(21);
+//       break;
+//     case "v":
+//       posizioni.push(22);
+//       break;
+//     case "w":
+//       posizioni.push(23);
+//       break;
+//     case "x":
+//       posizioni.push(24);
+//       break;
+//     case "y":
+//       posizioni.push(25);
+//       break;
+//     case "z":
+//       posizioni.push(26);
+//       break;
+//     default:
+//       console.error(`Errore: carattere "${character}" non trovato nell'alfabeto italiano.`);
+//   }
+// }
+
+// console.log(posizioni);
+
+
 
 
