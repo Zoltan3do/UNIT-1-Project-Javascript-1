@@ -79,7 +79,7 @@ li {
     display: inline-block;
     font-size: 1.1em;
     font-weight: 700;
-    color: #007185;
+    color: hsl(195deg 96.45% 28.93%);
 }
 
 .immagineD4 {
@@ -137,7 +137,7 @@ li {
 }
 
 .card-bigImage {
-    margin: 40px 0;
+    margin: 40px 0 ;
 
 }
 
@@ -150,10 +150,17 @@ li {
     background-color: #35485A;
     text-align: center;
     padding: 20px;
+    margin-top:-20px;
 }
 
 a:visited, a:active, a {
     color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
 }
